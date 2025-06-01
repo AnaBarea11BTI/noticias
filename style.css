@@ -13,7 +13,6 @@
     --vermillion: #F15D51;
     --yellow: #E9AA52;
     --silver: #C5C6CE;
-
 }
 
 body {
@@ -57,6 +56,8 @@ body.escurecer::before {
     flex-direction: column;
     padding: 1.5rem;
     gap: 1.5rem;
+
+    transition: 0.7s;
 }
 
 .header-mobile nav.abrir {
